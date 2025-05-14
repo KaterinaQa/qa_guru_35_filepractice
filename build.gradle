@@ -1,0 +1,27 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            "com.codeborne:selenide:6.19.1",
+            "org.junit.jupiter:junit-jupiter:5.10.0",
+            "org.slf4j:slf4j-simple:2.0.7",
+            "com.codeborne:pdf-test:1.9.2",
+            "com.codeborne:xls-test:1.4.3",
+            "com.opencsv:opencsv:5.11",
+            "com.google.code.gson:gson:2.13.1",
+            "com.fasterxml.jackson.core:jackson-core:2.19.0",
+            "com.fasterxml.jackson.core:jackson-databind:2.19.0",
+            "org.assertj:assertj-core:4.0.0-M1",
+
+    )
+}
+
+test {
+    useJUnitPlatform()
+}

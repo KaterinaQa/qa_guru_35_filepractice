@@ -1,0 +1,10 @@
+{
+  "name": "Katerina",
+  "age": 35,
+  "isGoodStudent": true,
+  "lessons": ["Selenide", "Pageobject", "Files"],
+  "passport" : {
+    "number": 123456,
+    "issueDate": "12.12.2022"
+  }
+}

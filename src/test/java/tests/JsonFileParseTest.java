@@ -26,7 +26,7 @@ public class JsonFileParseTest {
     void jsonTestWithModel() throws Exception {
         Student student = objectMapper.readValue(json, Student.class);
         assertThat(student.age).isEqualTo(35);
-        assertThat(student.lessons.get(1)).isEqualTo("Files");
+        assertThat(student.lessons.get(2)).isEqualTo("Files");
         assertThat(student.passport.issueDate).isEqualTo("12.12.2022");
     }
 }
